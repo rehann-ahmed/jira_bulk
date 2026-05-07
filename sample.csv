@@ -1,0 +1,15 @@
+summary,issuetype,description
+Login API fails,Story,Fix login issue
+UI bug on dashboard,Bug,Button misaligned
+Create user endpoint,Task,Build new API
+Payment gateway timeout,Bug,Resolve timeout during checkout
+Add forgot password feature,Story,Implement password recovery flow
+Optimize database queries,Task,Improve API response performance
+Profile image upload fails,Bug,Fix image upload validation issue
+Develop notifications service,Task,Create backend notification module
+Search results not updating,Bug,Fix stale data in search results
+Implement audit logging,Story,Track user activity logs
+Email verification pending,Bug,Fix verification email trigger
+Create analytics dashboard,Task,Build admin analytics interface
+Session expires too early,Bug,Adjust authentication token expiry
+Add dark mode support,Story,Implement UI theme switching
