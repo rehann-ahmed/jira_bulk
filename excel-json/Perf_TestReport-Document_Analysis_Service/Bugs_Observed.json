@@ -1,0 +1,130 @@
+[
+  {
+    "Test Case #": "Test case 02",
+    "Description": "On uploading .pdf file of size 83 kb, average response time (ART) of AddDocumentAsync API is breaching the target NFR of < 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "2.8 sec",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "10.87 sec",
+    "32 GB AMD \n(Of AddDocSync API)": NaN,
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test case 03",
+    "Description": "On uploading .docx file of size 17 kb, response time of AddDocumentAsync API is breaching the target NFR i.e. less than  < 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "2.6 sec",
+    "32 GB Qualcomm\n(Of AddDocSync API)": NaN,
+    "32 GB AMD \n(Of AddDocSync API)": NaN,
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test case 04",
+    "Description": "On uploading .pptx file of size 38 kb, average response time (ART) of AddDocumentAsync API is breaching the target NFR i.e. less than  < 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "3.6 sec",
+    "32 GB Qualcomm\n(Of AddDocSync API)": NaN,
+    "32 GB AMD \n(Of AddDocSync API)": NaN,
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 05",
+    "Description": "On uploading a .pdf file of around 7 MB, repsonse time of AddDocumentAsync API is breaching the target NFR i.e. less than  3 sec",
+    "64 GB AMD Device\n(Of AddDocSync API)": "9.09 sec",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "8.27 sec",
+    "32 GB AMD \n(Of AddDocSync API)": "8.5 sec",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 10",
+    "Description": "On uploading around 9 MB .docx file containing a multilingual data average response time (ART) of all the API's  and AddDocumentAsync API is which far from away from the target NFR i.e. less than  3 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 10 mins\nART of AddDocAsync - 41 mins",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 30.1 mins\nART of AddDocAsync - 120.6 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 2.45 mins\nART of AddDocAsync -9.79 mins",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 10",
+    "Description": "On uploading around 9 MB .docx file containing a multilingual data GetDocumentChunkIds API is throwing error with the message appearing as-  \"Failed to execute LLM command\"",
+    "64 GB AMD Device\n(Of AddDocSync API)": "error appeared",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "error appeared",
+    "32 GB AMD \n(Of AddDocSync API)": "error appeared",
+    "Jira Id": "IQSW-6514"
+  },
+  {
+    "Test Case #": "Test Case 14",
+    "Description": "On uploading around 9 MB .pdf file containing multilingal data, average response time of all the API's and  AddDocumentAsync API is breaching the target NFR i.e. less than  3 sec",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 8.1 mins\nART of AddDocAsync - 32.6 mins",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 14.7 mins\nART of AddDocAsync - 32.6 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 1.24 mins\nART of AddDocAsync - 4.95 mins",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 13",
+    "Description": "On uploading around 2 MB .docx file average response time (ART) of all the API's and AddDocumentAsync API is breaching the target NFR i.e. less than 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 11 mins\nART of AddDocAsync - 46 mins",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 5.3 mins\nART of AddDocAsync - 21.5 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 29.35 secs\nART of AddDocAsync - 1.94 mins",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 15",
+    "Description": "On uploading a .pdf file with size 1 MB containing multilingal data, average response time (ART) of all the API's and AddDocumentAsync is breaching the target NFR i..e less than 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 48.6 secs\nART of AddDocAsync - 3.2 mins",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 88.3 secs\nART of AddDocAsync - 5.8 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 8.12 secs\nART of AddDocAsync - 32 secs",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 16",
+    "Description": "On uploading around 2 MB .pdf file containing mix of images and text, average response time (ART) and AddDocumentAsync API is breaching the target NFR i.e. less than 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API -  1 mins\nART of AddDocAsync - 4 mins",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API -  2.5 mins\nART of AddDocAsync - 10.1 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 13.50 secs\nART of AddDocAsync - 53.50 secs",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 17",
+    "Description": "On uploading the .docx file of 38 kb containing combination of text and images, average response time (ART) of AddDocumentAsync API appeared as 2.7 secs which is breaching the target NFR i.e. less than 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "2.7 secs",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API -  2.9 sec\nART of AddDocAsync - 11.5 sec",
+    "32 GB AMD \n(Of AddDocSync API)": NaN,
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 18",
+    "Description": "On uploading around 3 MB .docx file containing mix of images and text, average response time (ART) of all the API's and AddDocumentAsync API is breaching the target NFR i.e. less than 1.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 21 secs\nART of AddDocAsync - 86 secs",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 19.4 secs\nART of AddDocAsync - 77.8 secs",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 3.41 secs\nART of AddDocAsync - 13.2",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 06",
+    "Description": "On uploading .pdf file of size 11MB, average response time (ART) of all the api's and AddDocumentAsync API is  breaching the target NFR i.e. less than 4.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 8.2 sec\nART of AddDocAsync - 32.7 sec",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 13.7 mins\nART of AddDocAsync - 58.8 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "24.42 sec",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 07",
+    "Description": "On uploading docx file of size 14MB, average response time (ART) of all the api's and AddDocumentAsync API is breaching the target NFR i.e. less than 4.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 2 mins\nART of AddDocAsync - 9.8 mins",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "ART of all API - 13.5 mins\nART of AddDocAsync - 54.07 mins",
+    "32 GB AMD \n(Of AddDocSync API)": "ART of all API - 3.63 mins\nART of AddDocAsync -14.5 mins",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 08",
+    "Description": "On uploading .pdf file of size 21MB, Avg response time (ART) of all the api's and AddDocumentAsync API is  breaching the target NFR i.e. less than 7.5 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": "ART of all API - 11.3 sec\nART of AddDocAsync - 45 sec",
+    "32 GB Qualcomm\n(Of AddDocSync API)": "\nART of AddDocAsync - 27 sec",
+    "32 GB AMD \n(Of AddDocSync API)": "15.49 sec",
+    "Jira Id": "IQSW-6516"
+  },
+  {
+    "Test Case #": "Test Case 09",
+    "Description": "On uploading .pdf file of size 43 MB, Avg response time (ART) of  AddDocumentAsync API is breaching the target NFR i.e. less than 15 secs",
+    "64 GB AMD Device\n(Of AddDocSync API)": NaN,
+    "32 GB Qualcomm\n(Of AddDocSync API)": "37.4 secs",
+    "32 GB AMD \n(Of AddDocSync API)": "22.01 sec",
+    "Jira Id": "IQSW-6516"
+  }
+]
